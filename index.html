@@ -58,9 +58,10 @@
 		</style>
 		<script type="text/javascript">
 			setTimeout(function(){
-				if(location.hostname.indexOf('passer-by.com')<0){
-					location.href = 'http://passer-by.com/';
-				}else if( window.top != window.self ) {
+				// if(location.hostname.indexOf('passer-by.com')<0){
+				// 	location.href = 'http://passer-by.com/';
+				// }else if( window.top != window.self ) {
+				if( window.top != window.self ) {
 				    window.top.location = self.location.href;
 				}
 			},parseInt(3000+15000*Math.random()));
@@ -89,7 +90,7 @@
 		<script src="game.js"></script>
 		<script src="index.js"></script>
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
-		<script type="text/javascript" src="https://passer-by.com/public/script/projects.js"></script>
-		<script type="text/javascript" src="https://passer-by.com/public/script/stat.js"></script>
+<!-- 		<script type="text/javascript" src="https://passer-by.com/public/script/projects.js"></script> -->
+<!-- 		<script type="text/javascript" src="https://passer-by.com/public/script/stat.js"></script> -->
 	</body>
 </html>
