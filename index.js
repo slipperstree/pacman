@@ -979,7 +979,8 @@
 							if(config['goods'][this.coord.x+','+this.coord.y]){	//吃到能量豆
 								items.forEach(function(item){
 									if(item.status==1||item.status==3){	//如果NPC为正常状态，则置为临时状态
-										item.timeout = 450;
+										//item.timeout = 450;
+										item.timeout = 4500;
 										item.status = 3;
 									}
 								});
